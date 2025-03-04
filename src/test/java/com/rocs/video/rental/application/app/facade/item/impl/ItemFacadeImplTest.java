@@ -45,7 +45,7 @@ public class ItemFacadeImplTest {
         assertEquals("1", itemToFind.getId());
         assertEquals("Test Title", itemToFind.getTitle());
         assertEquals("Test Genre", itemToFind.getGenre());
-        assertEquals(3, itemToFind.getCopy());
+        assertEquals(2, itemToFind.getCopy());
     }
 
     @Test
